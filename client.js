@@ -2,7 +2,7 @@
 const express = require('express')
 
 //Sätter igång en express server
-const PORT = 443
+const PORT = 80
 const app = express()
 const expressServer = app.listen(PORT, ()=>{
     console.log('Min server lyssnar nu på port:' + PORT)
