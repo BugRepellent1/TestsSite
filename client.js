@@ -4,7 +4,6 @@ const socketio = require('socket.io')
 const cookieParser = require('cookie-parser')
 const jsdom = require('jsdom')
 const fs = require('fs')
-const { dirname } = require('path')
 
 //Sätter igång en express server
 const PORT = 443
