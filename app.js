@@ -1,14 +1,15 @@
 'use strict'
 const fs = require('fs');
-const express = require('express');
 
-const app = express();
+window.addEventListener('load', function() {
+    fs.readFile("login.html", function(err, data){
+        if(err){
+            res.writeHead(404)
+            res.write('ERROR file not found')
+        }else{
+            res.write(data)
+        }
+    })
+    })
 
-app.listen(443, "Github", ()=>{
-    console.log('Server är igång på github?')
-});
-
-app.get('/', (req, res) =>{
-    res.sendFile(__dirname + "login.html");
-} );
 
