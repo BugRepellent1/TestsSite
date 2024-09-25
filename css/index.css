@@ -1,8 +1,10 @@
 body{
     background-color: rgb(26, 24, 34);
+    height: 100%;
 }
 
 h1{
     color: aliceblue;
     text-align: center;
+    height: 100%;
 }
