@@ -6,7 +6,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url("bilder/lost-in-the-wood-valheim-qp.jpg");
+    background-image: url("../bilder/lost-in-the-wood-valheim-qp.jpg");
     background-size: cover;
     background-position: center;
 }
