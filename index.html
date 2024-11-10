@@ -12,3 +12,17 @@
     <h1>Du är inne...</h1>
 </body>
 </html>
+<script>
+const express = require('express')
+
+//Sätter igång en express server
+const PORT = 80
+const app = express()
+const expressServer = app.listen(PORT, ()=>{
+    console.log('Min server lyssnar nu på port:' + PORT)
+})
+    
+app.get('/', (req, res)=>{
+    res.sendFile(dirname__ + 'login.html')})
+
+</script>
